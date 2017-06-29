@@ -1,2 +1,6 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+
+# bash gets confused if you pass in .sh files from windows
+# This breaks Vagrant for some users.
+*.sh text eol=lf
+
+
